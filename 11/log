@@ -1,0 +1,196 @@
+Started by user [8mha:////4NN5Fse7THPsjupEd2moMYpyUKuyR7RxcRmAqmtNdj2oAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/android
+using credential c7728d92-9c0b-42f0-b20d-6bb724e96134
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kaleelcsa/android-test-demo.git # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/android-test-demo.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/kaleelcsa/android-test-demo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5c26fdc14ac0bff4e7a8abdcf4d730c3e4166285 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5c26fdc14ac0bff4e7a8abdcf4d730c3e4166285
+Commit message: "Create local.properties"
+ > git rev-list --no-walk 5c26fdc14ac0bff4e7a8abdcf4d730c3e4166285 # timeout=10
+[Gradle] - Launching build.
+Unpacking https://services.gradle.org/distributions/gradle-4.1-bin.zip to /var/lib/jenkins/tools/hudson.plugins.gradle.GradleInstallation/gradle on Jenkins
+[android] $ /var/lib/jenkins/tools/hudson.plugins.gradle.GradleInstallation/gradle/bin/gradle build
+Starting a Gradle Daemon (subsequent builds will be faster)
+Configuration 'provided' in project ':app' is deprecated. Use 'compileOnly' instead.
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:preBuild UP-TO-DATE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:preDebugBuild
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.13/dagger-2.13.pom
+Download https://jcenter.bintray.com/joda-time/joda-time/2.9.9/joda-time-2.9.9.pom
+Download https://jcenter.bintray.com/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+Download https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.pom
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.agent/0.7.4.201502262128/org.jacoco.agent-0.7.4.201502262128.pom
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugAidl
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugRenderscript
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:checkDebugManifest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateDebugBuildConfig
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:prepareLintJar
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateDebugResValues
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateDebugResources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeDebugResources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:createDebugCompatibleScreenManifests
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processDebugManifest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:splitsDiscoveryTaskDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processDebugResources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateDebugSources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.13/dagger-compiler-2.13.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom
+Download https://jcenter.bintray.com/com/google/dagger/dagger-producers/2.13/dagger-producers-2.13.pom
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.4/google-java-format-1.4.pom
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format-parent/1.4/google-java-format-parent-1.4.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/21.0/guava-21.0.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/21.0/guava-parent-21.0.pom
+Download https://jcenter.bintray.com/com/squareup/javapoet/1.8.0/javapoet-1.8.0.pom
+Download https://jcenter.bintray.com/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.pom
+Download https://jcenter.bintray.com/com/google/dagger/dagger-producers/2.13/dagger-producers-2.13.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.13/dagger-2.13.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-compiler/2.13/dagger-compiler-2.13.jar
+Download https://jcenter.bintray.com/com/google/googlejavaformat/google-java-format/1.4/google-java-format-1.4.jar
+Download https://jcenter.bintray.com/com/squareup/javapoet/1.8.0/javapoet-1.8.0.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/21.0/guava-21.0.jar
+Download https://jcenter.bintray.com/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+Download https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.jar
+Download https://jcenter.bintray.com/com/google/errorprone/javac-shaded/9-dev-r4023-3/javac-shaded-9-dev-r4023-3.jar
+Download https://jcenter.bintray.com/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugJavaWithJavac
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugNdk NO-SOURCE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugSources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeDebugShaders
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugShaders
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateDebugAssets
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeDebugAssets
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformClassesWithJacocoForDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformClassesWithDexBuilderForDebug
+Download https://jcenter.bintray.com/org/jacoco/org.jacoco.agent/0.7.4.201502262128/org.jacoco.agent-0.7.4.201502262128-runtime.jar
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformDexArchiveWithDexMergerForDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeDebugJniLibFolders
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformNativeLibsWithMergeJniLibsForDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processDebugJavaRes NO-SOURCE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformResourcesWithMergeJavaResForDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:validateSigningDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:packageDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:assembleDebug
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:preReleaseBuild
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseAidl
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseRenderscript
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:checkReleaseManifest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateReleaseBuildConfig
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateReleaseResValues
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateReleaseResources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeReleaseResources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:createReleaseCompatibleScreenManifests
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processReleaseManifest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:splitsDiscoveryTaskRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processReleaseResources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateReleaseSources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:javaPreCompileRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseJavaWithJavac
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseNdk NO-SOURCE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseSources
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:lintVitalRelease SKIPPED
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeReleaseShaders
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseShaders
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:generateReleaseAssets
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeReleaseAssets
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformClassesWithPreDexForRelease
+
+Running dex as a separate process.
+
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has 1024 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to at least 1536 MB.
+To do this set org.gradle.jvmargs=-Xmx1536M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformDexWithDexForRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mergeReleaseJniLibFolders
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformNativeLibsWithMergeJniLibsForRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processReleaseJavaRes NO-SOURCE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:transformResourcesWithMergeJavaResForRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:packageRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:assembleRelease
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:assemble
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:lint
+Download https://maven.google.com/com/android/support/test/runner/1.0.1/runner-1.0.1.pom
+Download https://maven.google.com/com/android/support/test/rules/1.0.1/rules-1.0.1.pom
+Download https://maven.google.com/com/android/support/test/espresso/espresso-core/3.0.1/espresso-core-3.0.1.pom
+Download https://maven.google.com/com/android/support/test/espresso/espresso-intents/3.0.1/espresso-intents-3.0.1.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.12.0/mockito-android-2.12.0.pom
+Download https://maven.google.com/com/android/support/support-annotations/25.4.0/support-annotations-25.4.0.pom
+Download https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.pom
+Download https://maven.google.com/com/android/support/test/espresso/espresso-idling-resource/3.0.1/espresso-idling-resource-3.0.1.pom
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.9/byte-buddy-android-1.7.9.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.12.0/mockito-core-2.12.0.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-parent/1.7.9/byte-buddy-parent-1.7.9.pom
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.pom
+Download https://jcenter.bintray.com/org/objenesis/objenesis/2.6/objenesis-2.6.pom
+Download https://jcenter.bintray.com/org/objenesis/objenesis-parent/2.6/objenesis-parent-2.6.pom
+Download https://jcenter.bintray.com/com/jakewharton/android/repackaged/dalvik-dx/1/dalvik-dx-1.pom
+Download https://jcenter.bintray.com/com/jakewharton/android/repackaged/libcore-dex/2/libcore-dex-2.pom
+Download https://maven.google.com/com/android/support/test/espresso/espresso-core/3.0.1/espresso-core-3.0.1.aar
+Download https://maven.google.com/com/android/support/test/espresso/espresso-intents/3.0.1/espresso-intents-3.0.1.aar
+Download https://maven.google.com/com/android/support/test/rules/1.0.1/rules-1.0.1.aar
+Download https://maven.google.com/com/android/support/test/runner/1.0.1/runner-1.0.1.aar
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.12.0/mockito-android-2.12.0.jar
+Download https://maven.google.com/com/android/support/support-annotations/25.4.0/support-annotations-25.4.0.jar
+Download https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.jar
+Download https://maven.google.com/com/android/support/test/espresso/espresso-idling-resource/3.0.1/espresso-idling-resource-3.0.1.aar
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.12.0/mockito-core-2.12.0.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.9/byte-buddy-android-1.7.9.jar
+Download https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar
+Download https://jcenter.bintray.com/org/objenesis/objenesis/2.6/objenesis-2.6.jar
+Download https://jcenter.bintray.com/com/jakewharton/android/repackaged/libcore-dex/2/libcore-dex-2.jar
+Download https://jcenter.bintray.com/com/jakewharton/android/repackaged/dalvik-dx/1/dalvik-dx-1.jar
+Download https://jcenter.bintray.com/com/google/truth/truth/0.34/truth-0.34.pom
+Download https://jcenter.bintray.com/com/google/truth/truth-parent/0.34/truth-parent-0.34.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/20.0/guava-20.0.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+Download https://jcenter.bintray.com/com/google/truth/truth/0.34/truth-0.34.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/20.0/guava-20.0.jar
+Ran lint on variant debug: 7 issues found
+Ran lint on variant release: 7 issues found
+Wrote HTML report to file:///var/lib/jenkins/workspace/android/app/build/reports/lint-results.html
+Wrote XML report to file:///var/lib/jenkins/workspace/android/app/build/reports/lint-results.xml
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:preDebugUnitTestBuild UP-TO-DATE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:javaPreCompileDebugUnitTest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileDebugUnitTestJavaWithJavac
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:mockableAndroidJar
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processDebugUnitTestJavaRes NO-SOURCE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:testDebugUnitTest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:preReleaseUnitTestBuild UP-TO-DATE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:javaPreCompileReleaseUnitTest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:compileReleaseUnitTestJavaWithJavac
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:processReleaseUnitTestJavaRes NO-SOURCE
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:testReleaseUnitTest
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:test
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:check
+[8mha:////4L7pyljSe1tFj7JKejEEhbNsSM+3AFfLzXYddxVXNLGyAAAAYB+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUyFJBZn++WXpCqzh62PfDo/h4mBoaKIQQqqJTk/rzgfqNYZQoMUMkAAI0hhAQASWqbMYgAAAA==[0m:app:build
+
+[8mha:////4GkguWYLCFqp5TW4lC0WzohoYDvwW3mVm+oW7h7qaI0gAAAAYx+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUz5l5Yk5+em+uWXpNbNmqZ4mHPZIiYGhooiBimoruT8vOJ8oHJnCA1SyAABjCCFBQBI197DZQAAAA==[0mBUILD SUCCESSFUL in 1m 18s
+56 actionable tasks: 56 executed
+Build step 'Invoke Gradle script' changed build result to SUCCESS
+Finished: SUCCESS

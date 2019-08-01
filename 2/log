@@ -1,0 +1,106 @@
+Started by user [8mha:////4NN5Fse7THPsjupEd2moMYpyUKuyR7RxcRmAqmtNdj2oAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/android
+using credential c7728d92-9c0b-42f0-b20d-6bb724e96134
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/chiuki/android-test-demo.git # timeout=10
+Fetching upstream changes from https://github.com/chiuki/android-test-demo.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/chiuki/android-test-demo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 62b06d3e37d4e8e9591a2ccbec0e82a0f83b8359 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 62b06d3e37d4e8e9591a2ccbec0e82a0f83b8359
+Commit message: "Merge pull request #17 from aumarbello/master"
+ > git rev-list --no-walk 62b06d3e37d4e8e9591a2ccbec0e82a0f83b8359 # timeout=10
+$ /var/lib/jenkins/tools/android-sdk/tools/bin/avdmanager list target
+$ /var/lib/jenkins/tools/android-sdk/tools/bin/sdkmanager --list --verbose
+Warning: File /var/lib/jenkins/.android/repositories.cfg could not be loaded.
+[android] Using Android SDK: /var/lib/jenkins/tools/android-sdk
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb start-server
+* daemon not running; starting now at tcp:5832
+* daemon started successfully
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb start-server
+[android] Starting Android emulator
+$ /var/lib/jenkins/tools/android-sdk/emulator/emulator -skin 480x800 -ports 5708,5709 -report-console tcp:5844,max=60 -prop persist.sys.language=en -prop persist.sys.country=US -avd hudson_en-US_240_WVGA_android-23_armeabi-v7a_mySuffix -no-window
+statvfs('/var/lib/jenkins/.android/avd/hudson_en-US_240_WVGA_android-23_armeabi-v7a_mySuffix.avd/snapshots/default_boot/ram.img') failed: No such file or directory
+pulseaudio: pa_context_connect() failed
+pulseaudio: Reason: Connection refused
+pulseaudio: Failed to initialize PA contextaudio: Could not init `pa' audio driver
+emulator: WARNING: encryption is off
+emulator: WARNING: Requested adb port (5709) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
+[android] Emulator reported that the console is available on port 5,708
+[android] Waiting for emulator to finish booting...
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is ''
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb -s emulator-5708 wait-for-device shell getprop init.svc.bootanim
+[android] Emulator reported that the startup process is 'running'
+[android] Timed-out after waiting 360 seconds for emulator
+[android] Stopping Android emulator
+$ /var/lib/jenkins/tools/android-sdk/platform-tools/adb kill-server
+Finished: NOT_BUILT

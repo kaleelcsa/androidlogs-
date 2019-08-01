@@ -1,0 +1,183 @@
+Started by user [8mha:////4NN5Fse7THPsjupEd2moMYpyUKuyR7RxcRmAqmtNdj2oAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/android
+using credential c7728d92-9c0b-42f0-b20d-6bb724e96134
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kaleelcsa/android-test-demo.git # timeout=10
+Fetching upstream changes from https://github.com/kaleelcsa/android-test-demo.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/kaleelcsa/android-test-demo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5c26fdc14ac0bff4e7a8abdcf4d730c3e4166285 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5c26fdc14ac0bff4e7a8abdcf4d730c3e4166285
+Commit message: "Create local.properties"
+ > git rev-list --no-walk 5c26fdc14ac0bff4e7a8abdcf4d730c3e4166285 # timeout=10
+[Gradle] - Launching build.
+[android] $ /var/lib/jenkins/tools/hudson.plugins.gradle.GradleInstallation/gradle/bin/gradle build
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :app
+Configuration 'provided' in project ':app' is deprecated. Use 'compileOnly' instead.
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_gdk-google-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/build-tools/23.0.1/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/docs/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/android/m2repository/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/auto/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/google_play_services/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/instantapps/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/m2repository/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/market_apk_expansion/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/market_licensing/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/simulators/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/webdriver/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platform-tools/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-10/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-20/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-8/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-10/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-20/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-8/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/system-images/android-23/default/armeabi-v7a/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/tools/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_gdk-google-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/build-tools/23.0.1/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/docs/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/android/m2repository/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/auto/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/google_play_services/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/instantapps/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/m2repository/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/market_apk_expansion/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/market_licensing/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/simulators/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/webdriver/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platform-tools/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-10/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-20/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-8/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-10/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-20/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-8/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/system-images/android-23/default/armeabi-v7a/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/tools/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_apis-google-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/add-ons/addon-google_gdk-google-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/build-tools/23.0.1/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/docs/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/android/m2repository/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/auto/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/google_play_services/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/instantapps/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/m2repository/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/market_apk_expansion/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/market_licensing/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/simulators/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/extras/google/webdriver/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platform-tools/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-10/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-20/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/platforms/android-8/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-10/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-15/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-16/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-17/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-18/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-19/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-20/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-21/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-22/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-23/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/samples/android-8/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/system-images/android-23/default/armeabi-v7a/package.xml. Probably the SDK is read-only
+Exception while marshalling /opt/android/tools/package.xml. Probably the SDK is read-only
+File /var/lib/jenkins/.android/repositories.cfg could not be loaded.
+Checking the license for package Android SDK Build-Tools 27.0.1 in /opt/android/licenses
+Warning: License for package Android SDK Build-Tools 27.0.1 not accepted.
+Checking the license for package Android SDK Platform 27 in /opt/android/licenses
+Warning: License for package Android SDK Platform 27 not accepted.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> You have not accepted the license agreements of the following SDK components:
+  [Android SDK Platform 27, Android SDK Build-Tools 27.0.1].
+  Before building your project, you need to accept the license agreements and complete the installation of the missing components using the Android Studio SDK Manager.
+  Alternatively, to learn how to transfer the license agreements from one workstation to another, go to http://d.android.com/r/studio-ui/export-licenses.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+[8mha:////4GkguWYLCFqp5TW4lC0WzohoYDvwW3mVm+oW7h7qaI0gAAAAYx+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+9KDElJ1XPHUz5l5Yk5+em+uWXpNbNmqZ4mHPZIiYGhooiBimoruT8vOJ8oHJnCA1SyAABjCCFBQBI197DZQAAAA==[0mBUILD FAILED in 11s
+Build step 'Invoke Gradle script' changed build result to FAILURE
+Build step 'Invoke Gradle script' marked build as failure
+Finished: FAILURE
